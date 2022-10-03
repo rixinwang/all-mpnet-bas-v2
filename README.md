@@ -2364,7 +2364,7 @@ print(sentence_embeddings)
 
 ## Evaluation Results
 
-For an automated evaluation of this model, see the *Sentence Embeddings Benchmark*: [https://seb.sbert.net](https://seb.sbert.net?model_name=sentence-transformers/all-mpnet-base-v2)
+For an automated evaluation of this model, see *MTEB*: https://huggingface.co/spaces/mteb/leaderboard or the *Sentence Embeddings Benchmark*: [https://seb.sbert.net](https://seb.sbert.net?model_name=sentence-transformers/all-MiniLM-L12-v2)
 
 ------
 
