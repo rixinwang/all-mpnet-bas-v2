@@ -1,34 +1,7 @@
 ---
-pipeline_tag: sentence-similarity
-tags:
-- sentence-transformers
-- feature-extraction
-- sentence-similarity
-language: en
 license: apache-2.0
-datasets:
-- s2orc
-- flax-sentence-embeddings/stackexchange_xml
-- MS Marco
-- gooaq
-- yahoo_answers_topics
-- code_search_net
-- search_qa
-- eli5
-- snli
-- multi_nli
-- wikihow
-- natural_questions
-- trivia_qa
-- embedding-data/sentence-compression
-- embedding-data/flickr30k-captions
-- embedding-data/altlex
-- embedding-data/simple-wiki
-- embedding-data/QQP
-- embedding-data/SPECTER
-- embedding-data/PAQ_pairs
-- embedding-data/WikiAnswers
-
+language:
+- en
 ---
 
 
@@ -93,7 +66,7 @@ print(sentence_embeddings)
 
 ## Evaluation Results
 
-For an automated evaluation of this model, see the *Sentence Embeddings Benchmark*: [https://seb.sbert.net](https://seb.sbert.net?model_name=sentence-transformers/all-mpnet-base-v2)
+For an automated evaluation of this model, see the *Sentence Embeddings Benchmark*: [https://www.sbert.net/docs/pretrained_models.html](https://www.sbert.net/docs/pretrained_models.html)
 
 ------
 
